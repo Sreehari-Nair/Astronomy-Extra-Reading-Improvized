@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital@0;1&display=swap');
+
+body{
+    font-family: 'STIX Two Text', serif;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+img{
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+.box{
+    display: flex;
+}
+
+.anchor{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media( max-width:1500px){
+
+}

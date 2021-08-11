@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital@0;1&display=swap');
+
+body{
+    font-family: 'STIX Two Text', serif;
+    background-color: rgb(134, 248, 248);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+img{
+    border-radius: 5px;
+    margin-left: 20px;
+}
+body{
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.atmosphere_imges{
+display: flex;
+justify-content: space-evenly;
+}
+.atmosphere_descp{
+    font-size: 20px;
+    align-items: center;
+}
+.back_next_button{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width:1500px){
+    div{
+        display: block;
+    }
+}
